@@ -1236,3 +1236,17 @@ Wine.create!(
     available: true 
 )
 
+
+Wine.create!(
+    name: "Therbffiejksbq",
+    domain: "Pueyo",
+    winemaker: "Christophe et Jean Paul Pueyo",
+    year: "2017",
+    color: "red",
+    area: "Bordeaux",
+    grappe: ["Merlot, ", "Cabernet Franc"],
+    description: " Du Bordeaux aux tanins souples et fins! Fraicheur, buvabilité et jolis arômes de petits fruits noirs.",
+    price: 30,
+    available: true 
+)
+

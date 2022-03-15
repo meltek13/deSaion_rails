@@ -859,7 +859,7 @@ Wine.create!(
 Wine.create!(
     name: "Il Fait Soif",
     domain: "Maxime François Laurent",
-    winemaker: "Laurent",
+    winemaker: "Maxime François Laurent",
     year: "2020",
     color: "red",
     area: "Côtes du Rhône",
@@ -1231,22 +1231,324 @@ Wine.create!(
     color: "red",
     area: "Bordeaux",
     grappe: ["Merlot, ", "Cabernet Franc"],
-    description: " Du Bordeaux aux tanins souples et fins! Fraicheur, buvabilité et jolis arômes de petits fruits noirs.",
+    description: "Du Bordeaux aux tanins souples et fins! Fraicheur, buvabilité et jolis arômes de petits fruits noirs.",
     price: 30,
     available: true 
 )
 
+#VIN BLANC
+
+#
 
 Wine.create!(
-    name: "Therbffiejksbq",
-    domain: "Pueyo",
-    winemaker: "Christophe et Jean Paul Pueyo",
-    year: "2017",
-    color: "red",
-    area: "Bordeaux",
-    grappe: ["Merlot, ", "Cabernet Franc"],
-    description: " Du Bordeaux aux tanins souples et fins! Fraicheur, buvabilité et jolis arômes de petits fruits noirs.",
+    name: "Esch Hab Di Garn",
+    domain: "Rohrer A. & L. Rohrer",
+    winemaker: "André Rohrer",
+    year: "2020",
+    color: "white",
+    area: "Alsace",
+    grappe: ["Riesling"],
+    description: "",
+    price: 27,
+    available: true 
+)
+
+Wine.create!(
+    name: "Griffes Acérées",
+    domain: "Lindenlaub",
+    winemaker: "Christophe Lindenlaub",
+    year: "2018",
+    color: "white",
+    area: "Alsace",
+    grappe: ["Riesling"],
+    description: "Riesling vif qui sort ses griffes avec ses notes acides et minérales. Ça réveille !",
+    price: 31,
+    available: true 
+)
+
+Wine.create!(
+    name: "Champs des Alouettes",
+    domain: "Binner",
+    winemaker: "Christian Binner",
+    year: "2018",
+    color: "white",
+    area: "Alsace",
+    grappe: ["Riesling"],
+    description: "",
     price: 30,
     available: true 
 )
 
+Wine.create!(
+    name: "Wineck Sclossberg",
+    domain: "Binner",
+    winemaker: "Christian Binner",
+    year: "2015",
+    color: "white",
+    area: "Alsace",
+    grappe: ["Riesling"],
+    description: "",
+    price: 43,
+    available: true 
+)
+Wine.create!(
+    name: "Les Terrasses",
+    domain: "La Renardière",
+    winemaker: "Léo & Jean-Michel Petit",
+    year: "2017",
+    color: "white",
+    area: "Jura",
+    grappe: ["Savagnin"],
+    description: "",
+    price: 40,
+    available: true 
+)
+
+Wine.create!(
+    name: "Jurassique",
+    domain: "La Renardière",
+    winemaker: "Léo & Jean-Michel Petit",
+    year: "2019",
+    color: "white",
+    area: "Jura",
+    grappe: ["Chardonnay"],
+    description: "",
+    price: 39,
+    available: true 
+)
+
+Wine.create!(
+    name: "Foudre à Canon",
+    domain: "La Borde",
+    winemaker: "Julien Mareschal",
+    year: "2019",
+    color: "white",
+    area: "Jura",
+    grappe: ["Nature Ouillé"],
+    description: "Nez gourmand sur les fruits blancs mûrs, les notes beurrées et briochées mais aussi sur la minéralité et les notes légèrement grillées. Bouche ample offrant de la texture et une finale longue et saline.",
+    price: 39,
+    available: true 
+)
+
+Wine.create!(
+    name: "Terre de Lias",
+    domain: "La Borde",
+    winemaker: "Julien Mareschal",
+    year: "2020",
+    color: "white",
+    area: "Jura",
+    grappe: ["Chardonnay"],
+    description: "",
+    price: 40,
+    available: true 
+)
+
+Wine.create!(
+    name: "Vice Versa",
+    domain: "La Borde",
+    winemaker: "Julien Mareschal",
+    year: "2018",
+    color: "white",
+    area: "Jura",
+    grappe: ["Savagnin"],
+    description: "",
+    price: 43,
+    available: true 
+)
+
+Wine.create!(
+    name: "Gelées de Novembre",
+    domain: "La Borde",
+    winemaker: "Julien Mareschal",
+    year: "2018",
+    color: "white",
+    area: "Jura",
+    grappe: ["Chardonnay"],
+    description: "",
+    price: 58,
+    available: true 
+)
+
+Wine.create!(
+    name: "Terre des Gryphées",
+    domain: "La Tournelle",
+    winemaker: "Evelyne et Pascal Clairet",
+    year: "2018",
+    color: "white",
+    area: "Jura",
+    grappe: ["Chardonnay"],
+    description: "",
+    price: 40,
+    available: true 
+)
+
+Wine.create!(
+    name: "Fleur de Savagnin",
+    domain: "La Tournelle",
+    winemaker: "Evelyne et Pascal Clairet",
+    year: "2018",
+    color: "white",
+    area: "Jura",
+    grappe: ["Savagnin"],
+    description: "",
+    price: 42,
+    available: true 
+)
+
+Wine.create!(
+    name: "Corvée sur Curon",
+    domain: "La Tournelle",
+    winemaker: "Evelyne et Pascal Clairet",
+    year: "2017",
+    color: "white",
+    area: "Jura",
+    grappe: ["Chardonnay"],
+    description: "",
+    price: 42,
+    available: true 
+)
+
+Wine.create!(
+    name: "Castor",
+    domain: "Les Bottes Rouges",
+    winemaker: "Jean-Baptiste Menigoz",
+    year: "2017",
+    color: "white",
+    area: "Jura",
+    grappe: ["Chardonnay"],
+    description: "Castor est servi par une belle aromatique – fleurs blanches, amandes… – et un équilibre entre le gras et la tension qui réjouissent le palais !",
+    price: 34,
+    available: true 
+)
+
+Wine.create!(
+    name: "Des Nouvelles",
+    domain: "Les Bottes Rouges",
+    winemaker: "Jean-Baptiste Menigoz",
+    year: "2019",
+    color: "white",
+    area: "Jura",
+    grappe: ["Chardonnay"],
+    description: "",
+    price: 46,
+    available: true 
+)
+
+Wine.create!(
+    name: "Album",
+    domain: "Les Bottes Rouges",
+    winemaker: "Jean-Baptiste Menigoz",
+    year: "2019",
+    color: "white",
+    area: "Jura",
+    grappe: ["Savagnin"],
+    description: "",
+    price: 49,
+    available: true 
+)
+
+Wine.create!(
+    name: "Victor de la Combe",
+    domain: "Ganevat",
+    winemaker: "Anne & Jean François Ganevat",
+    year: "2020",
+    color: "white",
+    area: "Jura",
+    grappe: ["Chardonnay"],
+    description: "",
+    price: 50,
+    available: true 
+)
+
+Wine.create!(
+    name: "Les Cédres",
+    domain: "Ganevat",
+    winemaker: "Anne & Jean François Ganevat",
+    year: "2020",
+    color: "white",
+    area: "Jura",
+    grappe: ["Chardonnay"],
+    description: "",
+    price: 60,
+    available: true 
+)
+
+Wine.create!(
+    name: "Montferrand",
+    domain: "Ganevat",
+    winemaker: "Anne & Jean François Ganevat",
+    year: "2020",
+    color: "white",
+    area: "Jura",
+    grappe: ["Savagnin"],
+    description: "",
+    price: 60,
+    available: true 
+)
+
+Wine.create!(
+    name: "Merune",
+    domain: "Les Cortis",
+    winemaker: "Isabelle & Jérémy Decoster Coiffier",
+    year: "2020",
+    color: "white",
+    area: "Bugey",
+    grappe: ["Chardonnay, ","Altesse"],
+    description: "",
+    price: 32,
+    available: true 
+)
+
+#Savoie
+
+Wine.create!(
+    name: "Grandes Jorasses",
+    domain: "Belluard",
+    winemaker: "Dominique Belluard",
+    year: "2019",
+    color: "white",
+    area: "Savoie",
+    grappe: ["Altesse"],
+    description: "",
+    price: 45,
+    available: true 
+)
+
+Wine.create!(
+    name: "Les Alpes",
+    domain: "Belluard",
+    winemaker: "Dominique Belluard",
+    year: "2019",
+    color: "white",
+    area: "Savoie",
+    grappe: ["Gringet"],
+    description: "",
+    price: 45,
+    available: true 
+)
+
+Wine.create!(
+    name: "Le Feu",
+    domain: "Belluard",
+    winemaker: "Dominique Belluard",
+    year: "2019",
+    color: "white",
+    area: "Savoie",
+    grappe: ["Gringet"],
+    description: "",
+    price: 60,
+    available: true 
+)
+
+Wine.create!(
+    name: "Pur Jus",
+    domain: "Belluard",
+    winemaker: "Dominique Belluard",
+    year: "2019",
+    color: "white",
+    area: "Savoie",
+    grappe: ["Gringet"],
+    description: "",
+    price: 45,
+    available: true 
+)

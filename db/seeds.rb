@@ -448,7 +448,7 @@ Wine.create!(
 
 Wine.create!(
     name: "Mercurey",
-    domain: "François de Nicolay ",
+    domain: "François de Nicolay",
     winemaker: "François de Nicolay",
     year: "2019",
     color: "red",
@@ -674,7 +674,7 @@ Wine.create!(
 Wine.create!(
     name: "Vin Nu",
     domain: "Les 2 Terres",
-    winemaker: " Vincent Fargier & Manu Cunin",
+    winemaker: "Vincent Fargier & Manu Cunin",
     year: "2020",
     color: "red",
     area: "Ardèche",
@@ -1550,5 +1550,434 @@ Wine.create!(
     grappe: ["Gringet"],
     description: "",
     price: 45,
+    available: true 
+)
+
+#BEAUJOLAIS(blanc)
+
+Wine.create!(
+    name: "Blanc",
+    domain: "Lapalu",
+    winemaker: "Jean Claude Lapalu",
+    year: "2019",
+    color: "white",
+    area: "Beaujolais",
+    grappe: ["Chardonnay"],
+    description: "",
+    price: 28,
+    available: true 
+)
+
+Wine.create!(
+    name: "Blanc",
+    domain: "Sylvère Trichard",
+    winemaker: "Sylvère Trichard",
+    year: "2019",
+    color: "white",
+    area: "Beaujolais",
+    grappe: ["Chardonnay"],
+    description: "Il se distingue par son caractère gourmand et sa fraîcheur. Les notes de fruits blancs (pomme, poire) et de fleurs blanches.",
+    price: 30,
+    available: true 
+)
+
+#BOURGOGNE(blanc)
+
+Wine.create!(
+    name: "Aragonite",
+    domain: "Clos des Vignes du Maynes",
+    winemaker: "Julien Guillot",
+    year: "2018",
+    color: "white",
+    area: "Macon Cruzilles",
+    grappe: ["Chardonnay"],
+    description: "Un très grand vin, au nez expressif et complexe et qui concilie en bouche ampleur, finesse et longueur…",
+    price: 55,
+    available: true 
+)
+
+Wine.create!(
+    name: "Pouilly Fuissé",
+    domain: "Domaine Valette",
+    winemaker: "",
+    year: "2014",
+    color: "white",
+    area: "Pouilly Fuissé",
+    grappe: ["Chardonnay"],
+    description: "",
+    price: 60,
+    available: true 
+)
+
+Wine.create!(
+    name: "Mesdemoizelles",
+    domain: "Domaine Valette",
+    winemaker: "Philippe Valette",
+    year: "2015",
+    color: "white",
+    area: "Pouilly Vinzelles",
+    grappe: ["Chardonnay"],
+    description: " Le nez exprime des notes intenses de fruits et de fleurs blanches. La bouche brille par par son expression intense et son allonge, avec de belles notes épicées, beurrées et une minéralité bien présente. On reste pantois devant un tel équilibre entre rondeur et tension !",
+    price: 56,
+    available: true 
+)
+
+Wine.create!(
+    name: "Haute Côtes de Beaune",
+    domain: "Rouges Queues",
+    winemaker: "Isabelle et Jean-Yves Vantey",
+    year: "2019",
+    color: "white",
+    area: "Bourgogne",
+    grappe: ["Chardonnay"],
+    description: "",
+    price: 40,
+    available: true 
+)
+
+Wine.create!(
+    name: "Clos des Renardes",
+    domain: "Fanny Sabre",
+    winemaker: "Fanny Sabre",
+    year: "2018",
+    color: "white",
+    area: "Beaune",
+    grappe: ["Chardonnay"],
+    description: "",
+    price: 49,
+    available: true 
+)
+
+Wine.create!(
+    name: "Santenay 1er Cru",
+    domain: "Fanny Sabre",
+    winemaker: "Fanny Sabre",
+    year: "2016",
+    color: "white",
+    area: "Santenay",
+    grappe: ["Chardonnay"],
+    description: "Nez fin et élégant, sur des notes de fruits, de fleurs blanches, d’acacia, miel… Bouche gourmande, qui se prolonge, prolonge, prolonge… belle minéralité, et la signature saline de vins dont le terroir est respecté et choyé !",
+    price: 55,
+    available: true 
+)
+
+Wine.create!(
+    name: "Mont de Milieu",
+    domain: "De Moor",
+    winemaker: "Alice & Olivier De Moor",
+    year: "2018",
+    color: "white",
+    area: "Chablis 1er cru",
+    grappe: ["Chardonnay"],
+    description: "Un vin explosif au nez, dont la diversité des arômes reflète bien celle de chaque terroir. Les vins conservent une certaine fraîcheur et de la minéralité. La bouche est ronde et généreuse, équilibrée par une belle tension. Mont de Milieu se révèle puissant, dense et intense sans renier élégance ni pureté.",
+    price: 67,
+    available: true 
+)
+
+Wine.create!(
+    name: "Chablis",
+    domain: "François de Nicolay",
+    winemaker: "François de Nicolay",
+    year: "2018",
+    color: "white",
+    area: "Chablis",
+    grappe: ["Chardonnay"],
+    description: "",
+    price: 45,
+    available: true 
+)
+
+Wine.create!(
+    name: "Chablis",
+    domain: "Domaine de l'Enclos",
+    winemaker: "Romain & Damien Bouchard",
+    year: "2019",
+    color: "white",
+    area: "Chablis",
+    grappe: ["Chardonnay"],
+    description: "",
+    price: 35,
+    available: true 
+)
+
+Wine.create!(
+    name: "les plans sont fleuris",
+    domain: "la Luolle",
+    winemaker: "Sandrine & Olivier Dovergne",
+    year: "2019",
+    color: "white",
+    area: "Givry",
+    grappe: ["Chardonnay"],
+    description: "Nez d’amande, légèrement vanillé. Rond et généreux .",
+    price: 36,
+    available: true 
+)
+
+#LOIRE(blanc)
+
+Wine.create!(
+    name: "La Joute",
+    domain: "Mosse",
+    winemaker: "Famille Mosse",
+    year: "2020",
+    color: "white",
+    area: "Loire",
+    grappe: ["Chenin, ", "Chardonnay"],
+    description: "",
+    price: 39,
+    available: true 
+)
+
+Wine.create!(
+    name: "Chenin",
+    domain: "Mosse",
+    winemaker: "Famille Mosse",
+    year: "2020",
+    color: "white",
+    area: "Loire",
+    grappe: ["Chenin"],
+    description: "",
+    price: 32,
+    available: true 
+)
+
+Wine.create!(
+    name: "29",
+    domain: "Bertin Delatte",
+    winemaker: "Nicolas Bertin & Genevieve Delatte",
+    year: "2019",
+    color: "white",
+    area: "Loire",
+    grappe: ["Chenin"],
+    description: "",
+    price: 42,
+    available: true 
+)
+
+Wine.create!(
+    name: "Echalier",
+    domain: "Bertin Delatte",
+    winemaker: "Nicolas Bertin & Genevieve Delatte",
+    year: "2019",
+    color: "white",
+    area: "Loire",
+    grappe: ["Chenin"],
+    description: "",
+    price: 32,
+    available: true 
+)
+
+Wine.create!(
+    name: "Ithybole",
+    domain: "Ariane Lesné",
+    winemaker: "Ariane Lesné",
+    year: "2019",
+    color: "white",
+    area: "Loire",
+    grappe: ["Chenin"],
+    description: "",
+    price: 32,
+    available: true 
+)
+
+Wine.create!(
+    name: "Frileuse",
+    domain: "Clos du Tue-Boeuf",
+    winemaker: "Thierry Puzelat",
+    year: "2020",
+    color: "white",
+    area: "Loire",
+    grappe: ["Fié Gris, ", "Sauvignon, ", "Chardonnay"],
+    description: "",
+    price: 30,
+    available: true 
+)
+
+Wine.create!(
+    name: "Brin de Chèvre",
+    domain: "Clos du Tue-Boeuf",
+    winemaker: "Thierry Puzelat",
+    year: "2019",
+    color: "white",
+    area: "Loire",
+    grappe: ["Menu Pineau"],
+    description: "",
+    price: 37,
+    available: true 
+)
+
+Wine.create!(
+    name: "Coeur de Raisin",
+    domain: "Domaine de la Sénéchalière",
+    winemaker: "Marc Pesnot",
+    year: "2020",
+    color: "white",
+    area: "Loire",
+    grappe: ["Melon de Bourgogne"],
+    description: "",
+    price: 25,
+    available: true 
+)
+
+Wine.create!(
+    name: "Haut de Madon",
+    domain: "Clos des Carteries",
+    winemaker: "Christian Venier",
+    year: "2020",
+    color: "white",
+    area: "Cheverny",
+    grappe: ["Chardonnay, ", "Sauvignon"],
+    description: "",
+    price: 28,
+    available: true 
+)
+
+Wine.create!(
+    name: "Carterie",
+    domain: "Clos des Carteries",
+    winemaker: "Christian Venier",
+    year: "2020",
+    color: "white",
+    area: "Cheverny",
+    grappe: ["Chardonnay, ", "Sauvignon"],
+    description: "",
+    price: 26,
+    available: true 
+)
+
+Wine.create!(
+    name: "Amandiers",
+    domain: "L'Austral",
+    winemaker: "",
+    year: "2018",
+    color: "white",
+    area: "Saumur",
+    grappe: ["Chenin"],
+    description: "",
+    price: 34,
+    available: true 
+)
+
+Wine.create!(
+    name: "Octopus",
+    domain: "L'Austral",
+    winemaker: "",
+    year: "2020",
+    color: "white",
+    area: "Saumur",
+    grappe: ["Chenin"],
+    description: "",
+    price: 30,
+    available: true 
+)
+
+
+#RHONE(Blanc)
+
+Wine.create!(
+    name: "St Joseph",
+    domain: "Ferme des 7 Lunes",
+    winemaker: "Jean Delobre",
+    year: "2016",
+    color: "white",
+    area: "St Joseph",
+    grappe: ["Roussane, ", "Marsanne"],
+    description: "",
+    price: 41,
+    available: true 
+)
+
+Wine.create!(
+    name: "Gourmandise",
+    domain: "Les Bruyères",
+    winemaker: "David Reynaud",
+    year: "2020",
+    color: "white",
+    area: "Rhône",
+    grappe: ["Viognier"],
+    description: "",
+    price: 24,
+    available: true 
+)
+
+
+#Ardèche(blanc)
+Wine.create!(
+    name: "Vin Nu",
+    domain: "Les 2 Terres",
+    winemaker: "Vincent Fargier & Manu Cunin",
+    year: "2020",
+    color: "white",
+    area: "Ardèche",
+    grappe: ["Chardonnay, ", "Ugni"],
+    description: "",
+    price: 25,
+    available: true 
+)
+
+
+#SUD(blanc)
+Wine.create!(
+    name: "",
+    domain: "",
+    winemaker: "",
+    year: "",
+    color: "",
+    area: "",
+    grappe: [""],
+    description: "",
+    price: 41,
+    available: true 
+)
+
+Wine.create!(
+    name: "",
+    domain: "",
+    winemaker: "",
+    year: "",
+    color: "",
+    area: "",
+    grappe: [""],
+    description: "",
+    price: 41,
+    available: true 
+)
+
+Wine.create!(
+    name: "",
+    domain: "",
+    winemaker: "",
+    year: "",
+    color: "",
+    area: "",
+    grappe: [""],
+    description: "",
+    price: 41,
+    available: true 
+)
+
+Wine.create!(
+    name: "",
+    domain: "",
+    winemaker: "",
+    year: "",
+    color: "",
+    area: "",
+    grappe: [""],
+    description: "",
+    price: 41,
+    available: true 
+)
+
+Wine.create!(
+    name: "",
+    domain: "",
+    winemaker: "",
+    year: "",
+    color: "",
+    area: "",
+    grappe: [""],
+    description: "",
+    price: 41,
     available: true 
 )

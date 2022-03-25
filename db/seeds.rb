@@ -1238,7 +1238,7 @@ Wine.create!(
 
 #VIN BLANC
 
-#
+#Alsace (blanc)
 
 Wine.create!(
     name: "Esch Hab Di Garn",
@@ -1274,7 +1274,7 @@ Wine.create!(
     color: "white",
     area: "Alsace",
     grappe: ["Riesling"],
-    description: "",
+    description: "Un nez explosif sur l'agrume (mandarine, kumquat) l'épice et l'herbe sèche. C'est riche et gourmand. La bouche est ronde et fluide à la fois avec une belle longueur suave. Facile et entrainant. On retiendra la complexité et la digestibilité.",
     price: 30,
     available: true 
 )
@@ -1291,6 +1291,8 @@ Wine.create!(
     price: 43,
     available: true 
 )
+
+#Jura (blanc)
 Wine.create!(
     name: "Les Terrasses",
     domain: "La Renardière",
@@ -1299,7 +1301,7 @@ Wine.create!(
     color: "white",
     area: "Jura",
     grappe: ["Savagnin"],
-    description: "",
+    description: "Vin mélant des notes d’agrumes, de fleurs blanches et surtout une très belle minéralité.",
     price: 40,
     available: true 
 )
@@ -1312,7 +1314,7 @@ Wine.create!(
     color: "white",
     area: "Jura",
     grappe: ["Chardonnay"],
-    description: "",
+    description: "Véritable pépite du Jura, cet arbois s'ouvre sur une fraîcheur subtilement mentholée. En bouche, le boisé élégant enrobe une matière riche, délicatement relevée par une fine acidité et soulignée par une belle longueur aux notes de réglisse.",
     price: 39,
     available: true 
 )
@@ -1338,7 +1340,7 @@ Wine.create!(
     color: "white",
     area: "Jura",
     grappe: ["Chardonnay"],
-    description: "",
+    description: "Tension et allonge dans ce superbe chardonnay élevé sur lies. Provenant d'un terroir argilo-calcaire superficiel sur marnes bleues profondes du Lias, ce superbe blanc allie onctuosité et fraîcheur.",
     price: 40,
     available: true 
 )
@@ -1351,7 +1353,7 @@ Wine.create!(
     color: "white",
     area: "Jura",
     grappe: ["Savagnin"],
-    description: "",
+    description: "En bouche, on retrouve une trame aromatique similaire au vin jaune avec finesse et amplitude.",
     price: 43,
     available: true 
 )
@@ -1364,7 +1366,7 @@ Wine.create!(
     color: "white",
     area: "Jura",
     grappe: ["Chardonnay"],
-    description: "",
+    description: "Notes importantes de fleurs, de fruits blancs frais, d’amande et de noix fraîches. Si la bouche est ronde, elle est équilibrée par une superbe minéralité et une acidité qui lui offre énergie.",
     price: 58,
     available: true 
 )
@@ -1377,7 +1379,7 @@ Wine.create!(
     color: "white",
     area: "Jura",
     grappe: ["Chardonnay"],
-    description: "",
+    description: "Au nez, le vin dévoile de belles notes de fruits secs comme l’amande, la noisette fraîche. Egalement de jolies touches de pommes bien mûres et une pointe citronnée qui apporte de l’éclat au vin. La bouche est ample, d’une belle matière riche et intense. La minéralité est bien présente en milieu de bouche et se prolonge tout au long de la dégustation. Un vin lumineux et gourmand d’une buvabilité extraordinaire.",
     price: 40,
     available: true 
 )
@@ -1390,20 +1392,20 @@ Wine.create!(
     color: "white",
     area: "Jura",
     grappe: ["Savagnin"],
-    description: "",
+    description: "Fleur de Savagnin est un savagnin ouillé comme on les aime avec leur acidité naturelle tranchante, salivante... un vin tendu et puissant aux arômes complexes, entre fruits blancs, agrumes, fleurs, épices... ",
     price: 42,
     available: true 
 )
 
 Wine.create!(
-    name: "Corvée sur Curon",
+    name: "Corvée sous Curon",
     domain: "La Tournelle",
     winemaker: "Evelyne et Pascal Clairet",
     year: "2017",
     color: "white",
     area: "Jura",
     grappe: ["Chardonnay"],
-    description: "",
+    description: "Densité et tension impressionnante pour ce chardonnay taillé pour la garde ! Les fleurs blanches se mêlent aux notes minérales de pierre à fusil.",
     price: 42,
     available: true 
 )
@@ -1429,7 +1431,7 @@ Wine.create!(
     color: "white",
     area: "Jura",
     grappe: ["Chardonnay"],
-    description: "",
+    description: "Un vin plus opulent que la cuvée Léon. Bouche structurée et finale ciselée.",
     price: 46,
     available: true 
 )
@@ -1442,7 +1444,7 @@ Wine.create!(
     color: "white",
     area: "Jura",
     grappe: ["Savagnin"],
-    description: "",
+    description: "Délicates notes fumées se mêlent à celles de fruits jaunes bien mûrs pour un grand plaisir.",
     price: 49,
     available: true 
 )
@@ -1455,7 +1457,7 @@ Wine.create!(
     color: "white",
     area: "Jura",
     grappe: ["Chardonnay"],
-    description: "",
+    description: "Robe dorée, nez engageant sur le sésame et la poire confite. Bouche vive, fraîche et salivante, belle allonge minérale sur des notes citronnées et les épices douces.",
     price: 50,
     available: true 
 )
@@ -1468,7 +1470,7 @@ Wine.create!(
     color: "white",
     area: "Jura",
     grappe: ["Chardonnay"],
-    description: "",
+    description: "Nez sur les agrumes ainsi que des notes florales et minérales. Bouche vive et tendue, crayeux, Iodé.",
     price: 60,
     available: true 
 )
@@ -1481,7 +1483,7 @@ Wine.create!(
     color: "white",
     area: "Jura",
     grappe: ["Savagnin"],
-    description: "",
+    description: "Sur des notes de poire, de citron confit, de noisette... Bouche: fraîcheur, minéralité, longueur, beau volume.",
     price: 60,
     available: true 
 )
@@ -1499,7 +1501,7 @@ Wine.create!(
     available: true 
 )
 
-#Savoie
+#Savoie(blanc)
 
 Wine.create!(
     name: "Grandes Jorasses",
@@ -1509,7 +1511,7 @@ Wine.create!(
     color: "white",
     area: "Savoie",
     grappe: ["Altesse"],
-    description: "",
+    description: "Equilibrée, la bouche joue l'harmonie entre le volume et la finesse. Beaucoup d'élégance et une tension minérale.",
     price: 45,
     available: true 
 )
@@ -1522,7 +1524,7 @@ Wine.create!(
     color: "white",
     area: "Savoie",
     grappe: ["Gringet"],
-    description: "",
+    description: "Un Gringet de haut vol ! Un nez fruité floral discret au départ (a aérer). La bouche est magnifique, grasse sur les agrumes confits et les fruits exotiques et tenue par une minéralité saillante qui prolonge le plaisir sur une longue finale.",
     price: 45,
     available: true 
 )
@@ -1535,7 +1537,7 @@ Wine.create!(
     color: "white",
     area: "Savoie",
     grappe: ["Gringet"],
-    description: "",
+    description: "Très grande complexité aromatique dans ce somptueux vin, irradié d'une myriade d'arômes d'infusion et d'aromates. Fuselée, élancée mais ferme et profonde, la bouche déroule avec majesté jusque dans une finale explosive, cinglante et saline.",
     price: 60,
     available: true 
 )
@@ -1548,7 +1550,7 @@ Wine.create!(
     color: "white",
     area: "Savoie",
     grappe: ["Gringet"],
-    description: "",
+    description: "Ce Gringet est une pépite qui n’a pas d’égal. Rares sont les producteurs savoyards qui se lancent dans un Gringet de macération. Pourtant, le Domaine Belluard l’a fait et le résultat est un succès incontestable. Nez intense autour des arômes d’infusion, des épices fines safranées et du pot-pourri. La bouche montre une belle vinosité et une tension formidable. Un blanc de macération à la fine tannicité.",
     price: 45,
     available: true 
 )
@@ -1563,7 +1565,7 @@ Wine.create!(
     color: "white",
     area: "Beaujolais",
     grappe: ["Chardonnay"],
-    description: "",
+    description: "Sec, fruité et nerveux.",
     price: 28,
     available: true 
 )
@@ -1604,7 +1606,7 @@ Wine.create!(
     color: "white",
     area: "Pouilly Fuissé",
     grappe: ["Chardonnay"],
-    description: "",
+    description: "Ce vin naturel de Bourgogne est complexe, puissant, sur les agrumes, les épices et des notes salines avec de l’ampleur, du gras et une finale longue, mais longue…",
     price: 60,
     available: true 
 )
@@ -1630,7 +1632,7 @@ Wine.create!(
     color: "white",
     area: "Bourgogne",
     grappe: ["Chardonnay"],
-    description: "",
+    description: "Nez sur le citron, bouche droite et tendue, belle longueur.",
     price: 40,
     available: true 
 )
@@ -1643,7 +1645,7 @@ Wine.create!(
     color: "white",
     area: "Beaune",
     grappe: ["Chardonnay"],
-    description: "",
+    description: "Au nez, on découvre un vin sur les fruits blancs. En bouche, le vin est ample, frais et équilibré. La finale est légèrement épicé et très fine.",
     price: 49,
     available: true 
 )
@@ -1682,7 +1684,7 @@ Wine.create!(
     color: "white",
     area: "Chablis",
     grappe: ["Chardonnay"],
-    description: "",
+    description: "On retrouve dans ce vin tout le style de cette appellation, des arômes de fleurs blanches, une petite touche de miel et une bouche minérale à souhait avec une belle vivacité qui réveille les papilles.",
     price: 45,
     available: true 
 )
@@ -1701,7 +1703,7 @@ Wine.create!(
 )
 
 Wine.create!(
-    name: "les plans sont fleuris",
+    name: "les plants sont fleuris",
     domain: "la Luolle",
     winemaker: "Sandrine & Olivier Dovergne",
     year: "2019",
@@ -1723,7 +1725,7 @@ Wine.create!(
     color: "white",
     area: "Loire",
     grappe: ["Chenin, ", "Chardonnay"],
-    description: "",
+    description: "Et voici une belle joute entre 50% de chardonnay et 50% de chenin ! Combat équilibré au final tant les deux cépages sont complémentaires et s'unissent pour exprimer de beaux arômes de fruits jaunes et blancs. Nez très pur sur la pierre à fusil, bouche parfaitement équilibrée, ronde et minérale. Cette cuvée est issue des raisins du domaine Mosse et a été élevée sous bois.",
     price: 39,
     available: true 
 )
@@ -1736,7 +1738,7 @@ Wine.create!(
     color: "white",
     area: "Loire",
     grappe: ["Chenin"],
-    description: "",
+    description: "Un chenin minéral sur de beaux terroirs de schiste !",
     price: 32,
     available: true 
 )
@@ -1749,7 +1751,7 @@ Wine.create!(
     color: "white",
     area: "Loire",
     grappe: ["Chenin"],
-    description: "",
+    description: "Complexité et richesse aromatique. C'est ample, souple, plein d'énergie, ça met en joie !",
     price: 42,
     available: true 
 )
@@ -1762,7 +1764,7 @@ Wine.create!(
     color: "white",
     area: "Loire",
     grappe: ["Chenin"],
-    description: "",
+    description: "Blanc sec, à l'équilibre parfait, frais, tendu et gourmand.",
     price: 32,
     available: true 
 )
@@ -1788,7 +1790,7 @@ Wine.create!(
     color: "white",
     area: "Loire",
     grappe: ["Fié Gris, ", "Sauvignon, ", "Chardonnay"],
-    description: "",
+    description: "Frileuse possède des arômes de fruits blancs et des notes de craie. La bouche est droite, tendue, avec un fruité présent. Un vin tout en équilibre et en nuances.",
     price: 30,
     available: true 
 )
@@ -1801,7 +1803,7 @@ Wine.create!(
     color: "white",
     area: "Loire",
     grappe: ["Menu Pineau"],
-    description: "",
+    description: "Fruit, fins, typés et d’une grande pureté. Brin de Chèvre est une cuvée de menu-pineau, délicieuse. Très joli vin frais et complexe.",
     price: 37,
     available: true 
 )
@@ -1814,7 +1816,7 @@ Wine.create!(
     color: "white",
     area: "Loire",
     grappe: ["Melon de Bourgogne"],
-    description: "",
+    description: "Vin plein, aromatique et séduisant.",
     price: 25,
     available: true 
 )
@@ -1827,7 +1829,7 @@ Wine.create!(
     color: "white",
     area: "Cheverny",
     grappe: ["Chardonnay, ", "Sauvignon"],
-    description: "",
+    description: "Caractère fluide et digeste.",
     price: 28,
     available: true 
 )
@@ -1840,7 +1842,7 @@ Wine.create!(
     color: "white",
     area: "Cheverny",
     grappe: ["Chardonnay, ", "Sauvignon"],
-    description: "",
+    description: "nez aux notes d’agrumes et de fleurs blanches, une bouche toute en finesse mais qui ne manque pas de caractère, avec une petite acidité pour la fraîcheur et une légère amertume en finale.",
     price: 26,
     available: true 
 )
@@ -1853,7 +1855,7 @@ Wine.create!(
     color: "white",
     area: "Saumur",
     grappe: ["Chenin"],
-    description: "",
+    description: "Chenin tendu et élancé, aux arômes citronnés, floraux et energique. Belle acidité salivante qui leur donne une très grande longueur en bouche.",
     price: 34,
     available: true 
 )
@@ -1910,7 +1912,7 @@ Wine.create!(
     color: "white",
     area: "Ardèche",
     grappe: ["Chardonnay, ", "Ugni"],
-    description: "",
+    description: "Floral, vif, sans lourdeur,  avec une belle trame aromatique et une belle tenue en bouche. Un bon p’tit canon! ",
     price: 25,
     available: true 
 )
@@ -1918,66 +1920,95 @@ Wine.create!(
 
 #SUD(blanc)
 Wine.create!(
-    name: "",
-    domain: "",
+    name: "Coumes des Malies",
+    domain: "Balansa",
     winemaker: "",
-    year: "",
-    color: "",
-    area: "",
-    grappe: [""],
-    description: "",
-    price: 41,
+    year: "2020",
+    color: "white",
+    area: "Gard",
+    grappe: ["Grenache Blanc, ","Vermentino, ","Carignan, ","Terret"],
+    description: "Vin blanc lumineux au nez floral, minéral et aux notes de fruits à chair blanche.",
+    price: 33,
     available: true 
 )
 
 Wine.create!(
-    name: "",
-    domain: "",
-    winemaker: "",
-    year: "",
-    color: "",
-    area: "",
-    grappe: [""],
-    description: "",
-    price: 41,
+    name: "Fleur de Cailloux",
+    domain: "Jean Philippe Padié",
+    winemaker: "Jean Philippe Padié",
+    year: "2020",
+    color: "white",
+    area: "Roussilon",
+    grappe: ["Grenaches, ", "Macabeu"],
+    description: "Les notes d'agrumes se mêlent aux notes florales et aux ressentis minéraux (on peut vraiment parfois avoir l'impression de goûter une pierre chaude !)",
+    price: 34,
     available: true 
 )
 
 Wine.create!(
-    name: "",
-    domain: "",
-    winemaker: "",
-    year: "",
-    color: "",
-    area: "",
-    grappe: [""],
-    description: "",
-    price: 41,
+    name: "Danse Encore",
+    domain: "Loïc Roure",
+    winemaker: "Loïc Roure",
+    year: "2018",
+    color: "white",
+    area: "Roussillon",
+    grappe: ["Macabeu, ", "Grenache"],
+    description: "C'est fruité, c'est frais.",
+    price: 28,
     available: true 
 )
 
 Wine.create!(
-    name: "",
-    domain: "",
-    winemaker: "",
-    year: "",
-    color: "",
-    area: "",
-    grappe: [""],
+    name: "Orea",
+    domain: "Inebriati",
+    winemaker: "Victor Beau & Hervé Guillard",
+    year: "2020",
+    color: "white",
+    area: "Languedoc",
+    grappe: ["Terret"],
+    description: "Vif, minéral, original",
+    price: 35,
+    available: true 
+)
+
+#Etranger(blanc)
+
+Wine.create!(
+    name: "Marina",
+    domain: "Iago",
+    winemaker: "Marina Kurtanidze",
+    year: "2019",
+    color: "white",
+    area: "Géorgie",
+    grappe: ["Tsvane"],
     description: "",
-    price: 41,
+    price: 32,
     available: true 
 )
 
 Wine.create!(
-    name: "",
+    name: "TsoliKouri",
     domain: "",
     winemaker: "",
-    year: "",
-    color: "",
-    area: "",
-    grappe: [""],
+    year: "2019",
+    color: "white",
+    area: "Géorgie",
+    grappe: ["Melqo – Bazaleti"],
     description: "",
-    price: 41,
+    price: 34,
     available: true 
 )
+
+Wine.create!(
+    name: "Marina",
+    domain: "Gaioz Sopromadze",
+    winemaker: "Gaioz Sopromadze",
+    year: "2019",
+    color: "white",
+    area: "Géorgie",
+    grappe: ["Melqo – Bazaleti"],
+    description: "",
+    price: 34,
+    available: true 
+)
+
